@@ -37,3 +37,13 @@ VALUES
 ('SP', 'São Paulo'),
 ('SE', 'Sergipe'),
 ('TO', 'Tocantins');
+
+
+
+Print
+ Controller onde exista o JOIN das tabelas
+ Do método de inserir no banco
+ Da tabela Cidade(s)
+
+rodrigo.noescobar@gmail.com
+até às 21h do dia 03/05/2023

@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 use App\Http\Controllers\ProdutoController;
+use App\Http\Controllers\Auth\RegisterController;
 //php artisan serve
 
 Route::get('/', function () {
@@ -39,4 +41,5 @@ Route::group(['prefix' => 'produto'], function() {
     Route::get('/pesquisa',
             [ProdutoController::class, 'pesquisa']
             );
-});
+})->middleware("auth");
+
