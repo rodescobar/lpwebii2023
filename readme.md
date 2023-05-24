@@ -85,14 +85,18 @@
     - Comandos
     - *Upload*
         - Adicionar atualizações locais ou novos arquivos
+
     `git add .`
         - Finalizar atualizações locais e preparar pacote para versionamento no git
+    
     `git commit -m "Comentarios"`
         - Subir atualizações para o git
+    
     `git push`
 
     - *Download*
         - Buscar atualizações mais recentes no repositório e download destes
+    
     `git pull`
 
 
