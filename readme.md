@@ -95,7 +95,7 @@
         
 - Subir atualizações para o git
     
-    `git push`
+`git push`
 
 *Download*
 
