@@ -129,7 +129,9 @@ e pelo menos 2 CRUDs
 `session()->put('NOME', 'VALOR')`
 
 Onde:
+
     -Nome: nome da variável de sessão
+    
     -Valor: qualquer valor que será armazenado, array, string, numero, classe
 
 
