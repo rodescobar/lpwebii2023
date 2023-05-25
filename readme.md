@@ -121,3 +121,22 @@ e pelo menos 2 CRUDs
 ## Aula18 21/06/2023
 - Apresentação de 5 grupos restantes
 - Assinatura de lista de presença (avaliação)
+
+
+### Variáveis de sessão no Laravel
+- *Adicionar item*
+
+`session()->put('NOME', 'VALOR')`
+
+Onde:
+    -Nome: nome da variável de sessão
+    -Valor: qualquer valor que será armazenado, array, string, numero, classe
+
+
+- *Resgatar item*
+
+`session->get('NOME')`
+
+- *Verificar se sessão existe*
+
+`session->has('NOME')`
