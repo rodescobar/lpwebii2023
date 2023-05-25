@@ -131,14 +131,14 @@ e pelo menos 2 CRUDs
 Onde:
 
     -Nome: nome da variável de sessão
-    
+
     -Valor: qualquer valor que será armazenado, array, string, numero, classe
 
 
 - *Resgatar item*
 
-`session->get('NOME')`
+`session()->get('NOME')`
 
 - *Verificar se sessão existe*
 
-`session->has('NOME')`
+`session()->has('NOME')`
